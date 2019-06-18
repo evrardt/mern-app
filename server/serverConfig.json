@@ -1,0 +1,28 @@
+{
+    "dev": {
+        "db": {
+            "database": "Photos",
+            "host": "localhost",
+            "port": 27017,
+            "user": null,
+            "password": null
+        },
+        "server": {
+            "host": "localhost",
+            "port": 3000
+        }
+    },
+    "production": {
+        "db": {
+            "database": "undefined",
+            "host": "undefined",
+            "port": 27017,
+            "user": null,
+            "password": null
+        },
+        "server": {
+            "host": "undefined",
+            "port": 80
+        }
+    }
+}
